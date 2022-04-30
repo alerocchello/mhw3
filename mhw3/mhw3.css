@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    background-color: blue;
+    font-family: 'Anybody', Helvetica;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    body {
+        font-size: 12px;
+    }
+}
+
+header nav a:hover,
+#menu_competitions h2:hover,
+section h1:hover {
+    color: rgba(0, 255, 255, .8);
+}
+
+header {
+    background-image: url('Sfondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px){
+    header {
+        height: 350px;
+        line-height: 1.2;
+        width: 100%;
+    }
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    padding: 0;
+    display: flex;
+}
+
+#album-view .album,
+#players-view .player,
+a,
+#menu_competitions,
+#logo,
+section h1 {
+    cursor: pointer;
+}
+
+#logo {
+    color: white;
+    font-family: 'Bebas Neue', Impact;
+    font-size: 80px;
+    letter-spacing: 4px;
+    z-index: 1;
+}
+
+@media (max-width: 500px){
+    #logo {
+        font-size: 3em;
+    }
+}
+
+h1,
+#menu a,
+#menu_competitions h2 {
+    color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#menu {
+    background-color: blue;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 500px){
+    #menu {
+        display: none;
+    }
+}  
+
+#menu_tel div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 10px;
+}
+
+#menu_competitions {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu_tel {
+    display: none;
+}
+    
+@media (max-width: 500px){
+    #menu_tel {
+        display: block;
+    }
+}
+
+#button_3_linee div {
+    width: 25px;
+    height: 3px;
+    background-color: aqua;
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 500px){
+    section {
+        margin: 40px 10px;
+    }
+}
+
+form h2,
+section h2 {
+
+    font-family: 'Work Sans', Arial;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    margin: 50px 0;
+}
+
+@media (max-width: 500px){
+    .title {
+        margin-top: 5%;
+    }
+}
+
+#news {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#events {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 500px){
+    #news,
+     #events {
+         flex-direction: column;
+         align-items: center;
+     } 
+}
+
+#news div {
+    width: calc(30% - 80px);
+}
+
+#events div {
+    width: 40%;
+}
+
+@media (max-width: 500px){
+    #news div,
+     #events div {
+         width: 80%;
+         margin-bottom: 10%;
+     }
+}
+
+#news img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+#events img {
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+a.button {
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 10px 15px;
+    margin: 0 20px;
+}
+
+#album-view .album:hover,
+#players-view .player:hover,
+a.button:hover {
+    background-color: white;
+    color: black;
+}
+
+p {
+    line-height: 1.2;
+}
+
+footer {
+    margin-top: 200px;
+    font-family: 'Roboto', Courier;
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    background-color: darkblue;
+    padding: 70px;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    footer {
+        height: 100%;
+    }
+}
+
+#links_footer a,
+footer p {
+    margin: 30px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 500px){
+    #links_footer {
+        line-height: 0.1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    footer p {
+        line-height: 1.5;
+    }    
+}
+
+.bottons2 {
+    padding-bottom: 100px;
+}
+
+#cerca_giocatore {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#cerca_giocatore div {
+    margin: 5px;
+}
+
+#album-view,
+#players-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#album-view .album,
+#players-view .player {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#album-view img {
+    max-width: 100%;
+}

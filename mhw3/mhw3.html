@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page | AR Sport</title>
+    <link rel="stylesheet" href="mhw3.css">
+    <script src="mhw3.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anybody&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div id="menu">
+                <h1>Competizioni:</h1>
+                <a href="https://it.uefa.com/uefachampionsleague/">Champions League</a>
+                <a href="https://sport.sky.it/nba?gr=www">Nba</a>
+                <a href="https://www.ufc.com/">Ufc</a>
+                <a href="https://www.formula1.com/">Formula 1</a>
+                <a href="https://www.motogp.com/it">Motogp</a>
+                <div id="menu_competitions">
+                    <h2>Altre</h2>
+                    <div id="button_3_linee">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu_tel">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <div id="logo">AR Sport</div>
+    </header>
+
+    <section>
+
+        <h1 class="title">Ultime notizie</h1>
+        <h2>News, approfondimenti e il meglio dello sport</h2>
+        <div id="news">
+            <div>
+                <img src="Mondiali.jpg">
+                <h1>Mondiali Qatar 2022: sorteggio, gironi, calendario e tabellone</h1>
+                <p>Venerdì 1 aprile 2022 c'è stato il sorteggio della fase finale con i gironi e il 
+                    programma delle partite: tutto sui Mondiali Qatar 2022.
+                </p>
+                <p>2 ore fa</p>
+            </div>
+            <div>
+                <img src="MILWAUKEE BATTE BROOKLYN.jpg">
+                <h1>NBA: 44 punti di Antetokounmpo, Milwaukee batte Brooklyn</h1>
+                <p>
+                    NBA: 44 punti di Antetokounmpo, Milwaukee batte Brooklyn.
+                    DeRazon ne segna 50 ai Clippers, Chicago vince ai supplementari. 
+                    Giannis Antetokounmpo...
+                </p>
+                <p>13 ore fa</p>
+            </div>
+            <div>
+                <img src="Hamilton.jpg">
+                <h1>Lewis Hamilton lascia la Mercedes e la Formula 1</h1>
+                <p>
+                    La notizia era nell’aria ma oggi è arrivata l’ufficialità.
+                    Il sette volte campione del mondo di Formula 1, Lewis Hamilton ha comunicato
+                    l’intenzione di lasciare, con effetto immediato, la Mercedes e la Formula 1.
+                </p>
+                <p>11 ore fa</p>
+            </div>
+        </div>       
+        
+        <h1 class="title">Eventi sportivi più attesi</h1>
+        <div class="bottons2">
+            <a class="button">Acquista biglietti</a>
+            <a class="button">TV e streaming</a>
+        </div>
+        <div id="events">
+            <div>
+                <img src="juve-inter.jpg"/>
+                <h1>Serie A: Juventus - Inter</h1>
+                <p>La Juventus sogna il sorpasso, l’Inter ha bisogno di una scossa per
+                   tornare a sperare nello scudetto. Il Derby d’Italia arriva in un momento chiave 
+                   della stagione: i bianconeri stanno risalendo la classifica ma hanno subìto la
+                   deludente eliminazione dalla Champions League per mano del Villarreal; 
+                   i nerazzurri hanno perso certezze e, con esse, posizioni in classifica.
+                   L’opinione diffusa – sottoscritta anche da Beppe Bergomi, ai microfoni di Gazzetta –
+                   è che chi vince può sognare il tricolore, chi perde è tagliato fuori dalla corsa per il titolo. 
+                   Con queste premesse, la rivalità è al suo massimo.</p>
+
+            </div>
+            <div>
+                <img src="bulls-miami.webp"/>
+                <h1>Nba: Chicago Bulls - Miami Heat</h1>
+                <p>
+                    Mancano poche partite e la lotta per la leadership nella Eastern Conference è molto dura, 
+                    soprattutto nei primi tre posti. Una di quelle squadre che lottano per essere leader sono i
+                    Miami Heat , che hanno ottenuto un'importante vittoria contro i Boston Celtics e che, dopo 
+                    aver lottato duramente per essere i primi in classifica, non vogliono perdere il posto alla fine.
+                    I Chicago Bulls , intanto, hanno ottenuto tre vittorie molto importanti nelle ultime 4 partite,
+                    soprattutto contro i Cavaliers , diretti rivali nella lotta per rimanere con gli ultimi posti
+                    nei Playoff . C'è poco da giocare e al momento i Bulls stanno bene, ma per non subire spiacevoli
+                    sorprese dovranno vincere almeno 3 delle 5 partite rimaste.
+                </p>
+            </div>
+        </div>
+
+
+
+
+        <form id="cerca_giocatore">
+            <h2>Scrivi nome e cognome di un giocatore NBA per leggere i suoi dati</h2>
+            <div>
+                <input type="text" id="player"/>
+                <input type="submit" value="Cerca">
+                <div id="players-view"></div>
+            </div>
+        </form>
+
+        <form id="spotify">            
+            <h2>Scrivi il nome e scegli un album musicale<br>
+                Noi lo riprodurremo in sottofondo</h2>
+            <input type="text" id="album" />
+            <input type="submit" value="cerca">
+            <div id="album-view"></div>
+        </form>
+
+
+    </section>
+
+    <footer>
+        <div id="links_footer">
+            <a>Privacy</a>
+            <a>Terms and conditions</a>
+            <a>Cookie policy</a>
+            <a>Cookie Settings</a>
+        </div>
+        <p>Powered by Alessandro Rocchello 1000005960</p>
+    </footer>
+
+</body>
+</html>
